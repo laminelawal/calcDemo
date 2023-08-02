@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamine | Calc Project 1</title>
+    <link rel="stylesheet" href="/CALCOLATORE CSS-JS1/calc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/031ebd0324.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- HEADER CONTENT -->
+    <header>
+        <div class="logo">
+            <h2>MY CALCOLATORE</h2>
+        </div>
+        <div class="bar">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+
+    <!-- CALCULATOR CONTENT -->
+
+    <div class="container">
+        <input type="text" placeholder="0" id="calc">
+        <button onclick="Clear()" style="background-color: darkred;">Cl</button>
+        <button onclick="Delete()" style="background-color: green;">Del</button>
+        <button onclick="Display('%')" class="operation">%</button>
+        <button onclick="Display('/')" class="operation">/</button>
+        <button onclick="Display('7')">7</button>
+        <button onclick="Display('8')">8</button>
+        <button onclick="Display('9')">9</button>
+        <button onclick="Display('*')" class="operation">*</button>
+        <button onclick="Display('4')">4</button>
+        <button onclick="Display('5')">5</button>
+        <button onclick="Display('6')">6</button>
+        <button onclick="Display('+')" class="operation">+</button>
+        <button onclick="Display('1')">1</button>
+        <button onclick="Display('2')">2</button>
+        <button onclick="Display('3')">3</button>
+        <button onclick="Display('-')" class="operation">-</button>
+        <button onclick="Display('0')">0</button>
+        <button onclick="Display('.')">.</button>
+        <button onclick="Calc()" style="width: 120px; background-color: lightgreen; color:black;">=</button>
+    </div>
+
+    <!-- JS TAG TO EXTERNAL  -->
+    <script src="/CALCOLATORE CSS-JS1/calc.js"></script>
+</body>
+</html>
